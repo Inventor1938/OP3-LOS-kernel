@@ -8830,11 +8830,11 @@ migration_call(struct notifier_block *nfb, unsigned long action, void *hcpu)
 		migrate_tasks(cpu);
 		BUG_ON(rq->nr_running != 1); /* the migration thread */
 		raw_spin_unlock_irqrestore(&rq->lock, flags);
+		calc_load_migrate(rq);
 		break;
 
 	case CPU_DEAD:
 		clear_hmp_request(cpu);
-		calc_load_migrate(rq);
 		break;
 #endif
 	}
