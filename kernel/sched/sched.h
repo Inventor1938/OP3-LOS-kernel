@@ -40,7 +40,7 @@ struct freq_max_load {
 
 extern DEFINE_PER_CPU(struct freq_max_load *, freq_max_load);
 
-extern long calc_load_fold_active(struct rq *this_rq);
+extern long calc_load_fold_active(struct rq *this_rq, long adjust);
 extern void update_cpu_load_active(struct rq *this_rq);
 
 /*
