@@ -37,7 +37,7 @@ REPACK_DIR="${HOME}/android/source/kernel/OP3-AnyKernel"
 PATCH_DIR="${HOME}/android/source/kernel/OP3-AnyKernel/patch"
 MODULES_DIR="${HOME}/android/source/kernel/OP3-AnyKernel/modules"
 ZIP_MOVE="${HOME}/android/source/zips/OP3-zips"
-ZIMAGE_DIR="${HOME}/android/source/kernel/OP3-kernel/arch/arm64/boot"
+ZIMAGE_DIR="${HOME}/android/source/kernel/OP3-LOS-kernel/arch/arm64/boot"
 
 # Functions
 function checkout_ak_branches {
@@ -70,7 +70,7 @@ function make_modules {
 }
 
 function make_dtb {
-		$REPACK_DIR/tools/dtbToolCM -2 -o $REPACK_DIR/$DTBIMAGE -s 2048 -p scripts/dtc/ arch/arm64/boot/
+		$REPACK_DIR/tools/dtbToolCM -2 -o $REPACK_DIR/$DTBIMAGE -s 4096 -p scripts/dtc/ arch/arm64/boot/
 }
 
 function make_zip {
