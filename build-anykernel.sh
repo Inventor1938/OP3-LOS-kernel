@@ -21,7 +21,7 @@ DEFCONFIG="lineageos_oneplus3_defconfig"
 
 # Kernel Details
 VER=Render-Kernel
-VARIANT="OP3-LOS-N-EAS"
+VARIANT="OP3-LOS-N-HMP"
 
 # Vars
 export LOCALVERSION=~`echo $VER`
