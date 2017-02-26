@@ -1,5 +1,12 @@
 Changelog For Render Kernel!!
 
+R2:
+f2a97e02 (HEAD -> rk-los-n-eas-master, rk-los-n-eas-r2-t1) qcacld-2.0: Update to LA.UM.5.5.r1-03400-                                                                                                     8x96.0
+91dc18d Revert "msm: isp: Add support for VFE resolution limit"
+4883754 Merge tag 'LA.UM.5.5.r1-03400-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.                                                                                                     18 into cm-14.1
+602c12c Defconfig: Re-enable CONFIG_MEMCG
+f47f1b9 Fix build warning in kernel/cpuset.c
+
 R1:
 bd5d3da (HEAD -> rk-los-n-eas-master) platform/msm: haptic: expose vibrate function
 46da800 wake_gestures: add s2w and dt2w
