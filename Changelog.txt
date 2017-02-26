@@ -1,5 +1,11 @@
 Changelog For Render Kernel!!
 
+R2:
+8ff591a (rk-los-n-hmp-r1-t1) qcacld-2.0: Update to LA.UM.5.5.r1-03400-8x96.0
+daa389b Revert "msm: isp: Add support for VFE resolution limit"
+41c444f Merge tag 'LA.UM.5.5.r1-03400-8x96.0' of https://source.codeaurora.org/quic/la/kernel/msm-3.18 into cm-14.1
+ae304ee Defconfig: Re-enable CONFIG_MEMCG
+
 R1:
 02f3ee6 (HEAD -> rk-los-n-hmp-master, rk-los-n-hmp-r1-t1) Build: Adjust for HMP naming scheme
 1162636 mdss_fb: add backlight dimmer option
